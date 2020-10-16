@@ -1,0 +1,47 @@
+.detail {
+  &-wrapper {
+    margin: 1rem;
+  }
+
+  &-top-area {
+    display: flex;
+    margin-bottom: 2.5rem;
+  }
+
+  &-bottom-area {
+    min-height: 200px; // TODO: reconsider approach as per UX reasons.
+    border: 1px solid black;
+    padding: 2rem;
+  }
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid;
+    padding: 2rem;
+  }
+
+  &__image {
+    &-container {
+      flex-grow: 2;
+    }
+    &-wrapper {
+      margin-right: 5rem;
+      border: 1px solid;
+      padding: 5rem;
+
+      & img {
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+}
+
+.tag {
+  //TODO: move to common styles file
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-right: 1rem;
+}

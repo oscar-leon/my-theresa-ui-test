@@ -1,0 +1,21 @@
+.carousel {
+  display: flex;
+  overflow-y: scroll;
+
+  &-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  &-wrapper {
+    overflow: hidden;
+    max-height: 300px;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+  &__photo {
+    margin: 1rem;
+  }
+}
