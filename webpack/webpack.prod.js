@@ -52,6 +52,7 @@ module.exports = {
               localsConvention: "camelCase"
             }
           },
+          "postcss-loader", // TODO: refactor. Move to common webpack
           "sass-loader"
         ]
       }
